@@ -9,6 +9,7 @@ public class VetorInverso {
     
     int[] numInteiros = new int[15];
     int[] arrayInvertida = new int[15];
+    
     String preecherArray;
 
     System.out.print("Preencher o array MANUALMENTE?(S/N): ");
