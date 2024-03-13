@@ -10,7 +10,7 @@ public class MostrarVetores {
     }
 
     for (int i : numInteiros) {
-      System.out.print(i);
+      System.out.println(i);
     }
   }
 
