@@ -13,9 +13,9 @@ public class ApenasVogais {
       letras[i] = leia.next();
     }
 
-    for (String string : letras) {
-      if ("a".equals(string) || "e".equals(string) || "i".equals(string) || "o".equals(string) || "u".equals(string)) {
-        System.out.println(string);
+    for (String letra : letras) {
+      if ("a".equals(letra) || "e".equals(letra) || "i".equals(letra) || "o".equals(letra) || "u".equals(letra)) {
+        System.out.println(letra);
       }
     }
 

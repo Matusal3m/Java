@@ -26,6 +26,7 @@ public class Alunos {
       medias[i] = (notasAlunos[i][0] + notasAlunos[i][1] + notasAlunos[i][2] + notasAlunos[i][3])/4;
     }
 
+    System.out.println("");
     // Saída dos dados
 
     System.out.println("As respectivas médias são: " + Arrays.toString(medias));
