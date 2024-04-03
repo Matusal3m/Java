@@ -19,7 +19,7 @@ public class Pessoa {
     this.apelido = apelido;
   }
 
-  private long calculaIdade() {
+  public long calculaIdade() {
     return dataNascimento.until(dataHoje, ChronoUnit.YEARS);
   }
 
@@ -29,7 +29,7 @@ public class Pessoa {
         + calculaIdade() + " anos");
   }
 
-  private String encontraSaudacao() {
+  public String encontraSaudacao() {
     Calendar now = Calendar.getInstance();
 
     int horas;
@@ -42,6 +42,10 @@ public class Pessoa {
     } else {
       return "Boa noite";
     }
+  }
+
+  public String getName() {
+    return this.name;
   }
 
 }
